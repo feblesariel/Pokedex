@@ -16,24 +16,27 @@ consumirá datos de la API oficial de Pokémon (https://pokeapi.co/).
 Clonar
 
 ```
-git clone https://github.com/feblesariel/Pokedex.git    
+git clone https://github.com/feblesariel/Pokedex.git
 ```
 
 Instalar backend (Pararse en la raiz del proyecto)
 
 ```
-npm install     
+npm install 
 ```
-Instalar frontend (Pararse en la raiz del proyecto)
 
-```
-npm install    
-```
 Iniciar backend
 
 ```
-npm test
+npm start
 ```
+
+Instalar frontend (Pararse en la raiz del proyecto)
+
+```
+npm install
+```
+
 Iniciar frontend
 
 ```
