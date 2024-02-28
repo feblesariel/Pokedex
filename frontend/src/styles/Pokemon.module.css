@@ -14,13 +14,17 @@
 .PokemonImage {
     display: flex;
     justify-content: center;
-    height: 275px;
+    height: 250px;
 }
 
 .PokemonImage img {
     width: 96%;
     object-fit: contain;
     filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
+}
+
+.PokemonImage span {
+    margin-top: 2rem;
 }
 
 .PokemonBody {
@@ -35,9 +39,11 @@
     color: #333;
     margin-bottom: 1rem;
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #333;
 }
 
 .PokemonInfo {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;

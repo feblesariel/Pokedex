@@ -37,10 +37,14 @@ export default function Detail() {
                 {pokemonItem ? (
                     <div className={styles.PokemonCard}>
                         <div className={styles.PokemonImage}>
-                            <img
-                                src={pokemonItem.imageUrl}
-                                alt={pokemonItem.name}
-                            />
+                            {pokemonItem.imageUrl ? (
+                                <img
+                                    src={pokemonItem.imageUrl}
+                                    alt={pokemonItem.name}
+                                />
+                            ) : (
+                                <span>Sin imagen</span>
+                            )}
                         </div>
                         <div className={styles.PokemonBody}>
                             <h2>{pokemonItem.name}</h2>
@@ -59,7 +63,7 @@ export default function Detail() {
                         </div>
                     </div>
                 ) : (
-                    <h3>...</h3>
+                    <h5>...</h5>
                 )}
             </div>
 
