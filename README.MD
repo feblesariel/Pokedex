@@ -2,13 +2,7 @@
 
 ## Descripción
 
-Challenge realizado para Natural Tech House.
-
-**Objetivo:**
-
-Desarrollar una aplicación de Pokédex utilizando React para el frontend y Node.js con
-Express para el backend. El backend actuará como un BFF (Backend For Frontend) y
-consumirá datos de la API oficial de Pokémon (https://pokeapi.co/).
+Pokédex es una Web App completa que utiliza React para el frontend y Node.js con Express para el backend. La aplicación se conecta a la API oficial de Pokémon para proporcionar a los usuarios una experiencia fluida y dinámica al explorar y descubrir información sobre sus Pokémon favoritos.
 
 
 ## Guia de instalacion
